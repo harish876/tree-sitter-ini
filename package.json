@@ -38,7 +38,11 @@
   "tree-sitter": [
     {
       "scope": "source.ini",
-      "injection-regex": "^ini$"
+      "file-types": [
+        "ini"
+      ],
+      "injection-regex": "^ini$",
+      "highlights": "queries/highlights.scm"
     }
   ]
 }
